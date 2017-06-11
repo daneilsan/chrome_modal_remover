@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Modal remover",
+  "version": "1",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://www.marca.com*"
+      ],
+      "js": [
+        "modal_remover.user.js"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "converted_from_user_script": true,
+  "description": "Removes the annoying modals of some sites"
+}
